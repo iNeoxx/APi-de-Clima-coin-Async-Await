@@ -7,9 +7,6 @@ window.addEventListener('load', () => {
     formulario.addEventListener('submit', buscarClima);
 })
 
-
-
-
 async function buscarClima(e) {
   e.preventDefault();
   const ciudad = document.querySelector('#ciudad').value
