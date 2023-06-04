@@ -48,7 +48,7 @@ async function consultarAPI(ciudad, pais) {
     // const appId = '9dd979fda6c40f00dc3f0ea727937ad4'; //original API key
     try {
       const appId = 'ea0133d5a1b22db9990fd8f9edf05d0a';
-      const url = `http://api.openweathermap.org/data/2.5/weather?q=${ciudad},${pais}&appid=${appId}`;
+      const url = `https://api.openweathermap.org/data/2.5/weather?q=${ciudad},${pais}&appid=${appId}`;
       console.log(url);
       Spinner();
   
